@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "better-webs-gametest",
+	"version": "1.0.0",
+	"name": "Better Webs gametests",
+	"description": "Checks where thrown webs land and how long they last, and photographs strung webs.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"justfatlard.better_webs.gametest.ThrownWebs",
+			"justfatlard.better_webs.gametest.SpidersComeInSizes",
+			"justfatlard.better_webs.gametest.Showcase",
+			"justfatlard.better_webs.gametest.Mineshaft"
+		]
+	},
+	"depends": {
+		"better-webs-justfatlard": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}

@@ -1,0 +1,54 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/cobweb",
+    "west": "better-webs-justfatlard:block/strand/corner_3",
+    "east": "better-webs-justfatlard:block/strand/corner_3"
+  },
+  "elements": [
+    {
+      "from": [
+        6.0,
+        0,
+        1.5147
+      ],
+      "to": [
+        6.0,
+        16,
+        18.4853
+      ],
+      "rotation": {
+        "origin": [
+          6.0,
+          8,
+          10.0
+        ],
+        "axis": "y",
+        "angle": 45
+      },
+      "shade_direction_override": "up",
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#west",
+          "rotation": 90
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#east",
+          "rotation": 90
+        }
+      }
+    }
+  ]
+}

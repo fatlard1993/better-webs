@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "justfatlard.better_webs.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "SnowballMixin",
+    "SpiderMixin",
+    "WebBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

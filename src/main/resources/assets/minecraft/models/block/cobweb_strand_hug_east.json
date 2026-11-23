@@ -1,0 +1,128 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/cobweb",
+    "west": "better-webs-justfatlard:block/strand/hug",
+    "east": "better-webs-justfatlard:block/strand/hug",
+    "clump": "better-webs-justfatlard:block/strand/clump"
+  },
+  "elements": [
+    {
+      "from": [
+        15.8,
+        0,
+        0
+      ],
+      "to": [
+        15.8,
+        16,
+        16
+      ],
+      "shade_direction_override": "up",
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#west"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#east"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        1,
+        8
+      ],
+      "to": [
+        16,
+        15,
+        8
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "x",
+        "angle": 45
+      },
+      "shade_direction_override": "up",
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clump"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clump"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        8,
+        1
+      ],
+      "to": [
+        16,
+        8,
+        15
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "x",
+        "angle": 45
+      },
+      "shade_direction_override": "up",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clump"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#clump"
+        }
+      }
+    }
+  ]
+}
