@@ -78,6 +78,8 @@ public final class WebSpinGoal extends Goal {
 
 	@Override
 	public void tick() {
+		// The selector re-checks canContinueToUse only every other tick, so a spot dropped last tick can still be ticked once.
+		if (spot == null) return;
 		ticks++;
 		if (!(spider.level() instanceof ServerLevel level)) return;
 		if (spinning > 0) {
